@@ -1,0 +1,29 @@
+2024-09-16 19:58:07,063 Worker rq:worker:f6fcee816d1e4987837d1645b8b42c2a started with PID 11894, version 1.15.1
+2024-09-16 19:58:07,063 Subscribing to channel rq:pubsub:f6fcee816d1e4987837d1645b8b42c2a
+2024-09-16 19:58:07,064 *** Listening on home-sam-Code-ERPNext-frappe-bench:short, home-sam-Code-ERPNext-frappe-bench:default, home-sam-Code-ERPNext-frappe-bench:long...
+2024-09-16 19:58:07,065 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:short
+2024-09-16 19:58:07,098 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:default
+2024-09-16 19:58:07,099 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:long
+2024-09-16 20:03:12,094 Worker f6fcee816d1e4987837d1645b8b42c2a [PID 11894]: warm shut down requested
+2024-09-16 20:03:12,108 Unsubscribing from channel rq:pubsub:f6fcee816d1e4987837d1645b8b42c2a
+2024-09-16 20:13:31,815 Worker rq:worker:c5570ebbeacc44fe994778b400436651 started with PID 13413, version 1.15.1
+2024-09-16 20:13:31,815 Subscribing to channel rq:pubsub:c5570ebbeacc44fe994778b400436651
+2024-09-16 20:13:31,816 *** Listening on home-sam-Code-ERPNext-frappe-bench:short, home-sam-Code-ERPNext-frappe-bench:default, home-sam-Code-ERPNext-frappe-bench:long...
+2024-09-16 20:13:31,817 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:short
+2024-09-16 20:13:31,818 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:default
+2024-09-16 20:13:31,819 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:long
+2024-09-16 20:40:31,981 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:short
+2024-09-16 20:40:32,005 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:default
+2024-09-16 20:40:32,007 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:long
+2024-09-16 21:11:36,698 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:short
+2024-09-16 21:11:37,335 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:default
+2024-09-16 21:11:37,337 Cleaning registries for queue: home-sam-Code-ERPNext-frappe-bench:long
+2024-09-16 21:13:35,740 home-sam-Code-ERPNext-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.create_contact', kwargs={'user': <User: samuelwoyesso2016@gmail.com>, 'ignore_mandatory': True}, method='frappe.core.doctype.user.user.create_contact', site='dcode.com', user='Administrator') (dcode.com::feacb639-05d2-4fc0-9f6e-01217aa6229d)
+2024-09-16 21:13:43,140 home-sam-Code-ERPNext-frappe-bench:default: Job OK (dcode.com::feacb639-05d2-4fc0-9f6e-01217aa6229d)
+2024-09-16 21:13:43,141 Result is kept for 600 seconds
+2024-09-16 21:13:43,181 home-sam-Code-ERPNext-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='erpnext.setup.demo.setup_demo_data', kwargs={}, method=<function setup_demo_data at 0x7c47fa9d23e0>, site='dcode.com', user='samuelwoyesso2016@gmail.com') (dcode.com::4f4857ab-b813-42ff-b4ca-55c58d8f35b8)
+2024-09-16 21:14:10,382 home-sam-Code-ERPNext-frappe-bench:default: Job OK (dcode.com::4f4857ab-b813-42ff-b4ca-55c58d8f35b8)
+2024-09-16 21:14:10,382 Result is kept for 600 seconds
+2024-09-16 21:14:10,399 home-sam-Code-ERPNext-frappe-bench:default: frappe.utils.background_jobs.execute_job(event=None, is_async=True, job_name='frappe.core.doctype.user.user.update_gravatar', kwargs={'name': 'samuelwoyesso2016@gmail.com'}, method='frappe.core.doctype.user.user.update_gravatar', site='dcode.com', user='Administrator') (dcode.com::23274f94-7ba3-4ef0-ba1c-f4675f5d3dff)
+2024-09-16 21:14:12,487 home-sam-Code-ERPNext-frappe-bench:default: Job OK (dcode.com::23274f94-7ba3-4ef0-ba1c-f4675f5d3dff)
+2024-09-16 21:14:12,487 Result is kept for 600 seconds
